@@ -1,0 +1,319 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ........................ GITHUB CARD ...................... */
+
+/* 
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cardMain {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ecf0f3;
+}
+
+.cardBody {
+  background: #ecf0f3;
+  box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
+  min-width: 350px;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.imgArea {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.innerArea {
+  height: calc(100% - 25px);
+  width: calc(100% - 25px);
+  border-radius: 50%;
+}
+
+.innerArea img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.cardText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.name {
+  margin: 10px auto;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.field {
+  margin: 10px auto;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.followPerson {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.followPerson button {
+  position: relative;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 12px 0;
+  color: #31344b;
+  font-size: 17px;
+  font-weight: 400;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 4;
+  box-shadow: 3px 3px 5px #ceced1;
+  margin: auto 10px;
+}
+
+.followPerson button:hover:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 50%;
+  background: #ecf0f3;
+  box-shadow: inset -3px -3px 7px #ffffff, inset 3px 3px 5px #ceced1;
+}
+
+.followPerson button:hover:before {
+  z-index: -1;
+  border-radius: 5px;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 0px 15px;
+  height: 45px;
+  background-color: #ecf0f3;
+  box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
+} */
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #131419;
+}
+
+.mainCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px !important;
+  background: #131419;
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05), 5px 5px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.searchDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.searchDiv>input {
+  margin: auto 5px;
+  width: 100%;
+  height: 50px;
+  background: #131419;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  padding: 5px 25px;
+  color: #ffffff;
+  font-size: 18px;
+  color: #03a9f4;
+  box-shadow: inset -2px -2px 10px rgba(255, 255, 255, 0.1), inset 2px 2px 15px rgba(0, 0, 0, 0.8);
+}
+
+.searchDiv>button {
+  margin: auto 5px;
+  background: #131419;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  padding: 8px 25px;
+  color: #ffffff;
+  font-size: 18px;
+  color: #03a9f4;
+  box-shadow: -2px -2px 10px rgba(255, 255, 255, 0.1), 2px 2px 15px rgba(0, 0, 0, 0.8);
+}
+
+.searchDiv>button:hover {
+  box-shadow: inset -2px -2px 10px rgba(255, 255, 255, 0.1), inset 2px 2px 15px rgba(0, 0, 0, 0.8);
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 15px;
+  color: #03a9f4;
+}
+
+.title i {
+  margin: 10px auto;
+  color: white;
+}
+
+.title span {
+  margin: 10px 10px;
+  color: #03a9f4;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  left: 0px;
+  right: 0px;
+  z-index: 1000;
+  width: 100%;
+  /* height: 100px; */
+  margin: 30px auto;
+}
+
+.img img {
+  position: relative;
+  left: 0px;
+  right: 0px;
+  z-index: 1000;
+  width: 100%;
+  /* height: 100%; */
+}
+
+.weatherConditio {
+  color: #03a9f4;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.temprature {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.tempratureNumber {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 90px;
+  color: white;
+}
+
+.supValue {
+  font-size: 30px !important;
+  text-align: center;
+  vertical-align: super;
+}
+
+.windHumidity {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.wind, .humidity {
+  text-align: center;
+  margin: 10px 7px;
+  color: white;
+}
+
+.humidity {
+  text-align: center;
+  margin: 10px 7px;
+  color: white;
+}
+
+.loader {
+  /* height: 100vh; */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
